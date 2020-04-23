@@ -1,0 +1,27 @@
+// *****************************************************************
+//   Average.java
+//   Read three integers from the user and print their average
+// *****************************************************************
+import java.util.Scanner;
+public class Average
+{
+   public static void main(String[] args)
+   {
+      int val1, val2, val3;
+      double average;
+      //Construct a Scanner object
+      _______________________________________
+
+      // get three values from user
+      System.out.println("Please enter three integers and " +
+      "I will compute their average");
+       _______________________________________
+       _______________________________________
+       _______________________________________
+
+      //compute the average
+      _______________________________________
+      //print the average
+      _______________________________________
+   } 
+}

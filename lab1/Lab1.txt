@@ -1,0 +1,73 @@
+HURSH KARKHANIS
+
+
+HELO WORLD ERROR MESSAGE:
+
+
+Hello.java:5: error: class Helo is public, should be declared in a file named Helo.java
+   public class Helo
+          ^
+1 error
+
+
+MISSPELLING IN PRINT
+
+No error message because the class name and finel name line up fine, what i want to print in the println is up to me, misspelled or not
+
+
+
+TAKING OUT SECOND QUOTATION MARK ERROR MESSAGE
+
+
+Hello.java:12: error: ')' expected
+         System.out.println(Hello World!");
+                                 ^
+Hello.java:12: error: unclosed string literal
+         System.out.println(Hello World!");
+                                        ^
+Hello.java:12: error: not a statement
+         System.out.println(Hello World!");
+                                       ^
+3 errors
+Hurshs-MacBook-Pro:CS112 Hursh$ javac Hello.java
+Hello.java:12: error: unclosed string literal
+         System.out.println("Hello World!);
+                            ^
+Hello.java:12: error: ';' expected
+         System.out.println("Hello World!);
+                                           ^
+Hello.java:14: error: reached end of file while parsing
+   }
+    ^
+3 errors
+
+
+TAKING OUT FIRST QUOTATION MARK ERROR MESSAGE
+
+Hello.java:5: error: class Helo is public, should be declared in a file named Helo.java
+   public class Helo
+          ^
+1 error
+Hurshs-MacBook-Pro:CS112 Hursh$ javac Hello.java
+Hello.java:12: error: ')' expected
+         System.out.println(Hello World!");
+                                 ^
+Hello.java:12: error: unclosed string literal
+         System.out.println(Hello World!");
+                                        ^
+Hello.java:12: error: not a statement
+         System.out.println(Hello World!");
+                                       ^
+3 errors
+
+
+NO SEMI COLON ERROR MESSAGE
+
+Hello.java:12: error: ';' expected
+         System.out.println("Hello World!")
+                                           ^
+1 error
+
+
+
+
